@@ -1,9 +1,9 @@
 # Programação Web
 
 Informações:
-Nome: Martim Teixeira
-Número Aluno: a22006053
-Curso: Informática de Gestão
+Nome: Martim Teixeira<br>
+Número Aluno: a22006053<br>
+Curso: Informática de Gestão<br>
 Univeridade: Universidade Lusófona de Humanidades e Tecnologias
 
 Enunciado Laboratório 2:
