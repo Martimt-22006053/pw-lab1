@@ -7,7 +7,7 @@ Informações:
 <li>Número Aluno: a22006053</li>
 <li>Curso: Informática de Gestão</li>
 <li>Univeridade: Universidade Lusófona de Humanidades e Tecnologias</li>
-</il>
+</il><br>
 
 Enunciado Laboratório 2:
 https://github.com/ULHT-PW/pw-lab2
