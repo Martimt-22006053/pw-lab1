@@ -1,25 +1,58 @@
 <!DOCTYPE html>
-<html lang = "pt">
+<html lang="pt">
   <head>
-  <title>PW Labs</title>
+    <link rel="portugal icon" type="images/Portugal.ico" href="images/Portugal.ico" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>PW Labs</title>
   </head>
   <body>
-    <h1>Programação Web: Laboratórios</h1>
-    <p>
-      <ol>
-          <li><a href="lab1/index.html">Laboratório 1</a>: Conhecer a Internet com a minha primeira página Web</li> 
-          <li><a href="lab2/index.html">Laboratório 2</a>: Explorando o HTML com o meu primeiro website</li>
-      </ol>
-    </p>
-    <p>
-      Informações:
-      <il>
-        <li>Nome: Martim Teixeira</li>
-        <li>Número Aluno: a22006053</li>
-        <li>Curso: Informática de Gestão</li>
-        <li>Univeridade: Universidade Lusófona de Humanidades e Tecnologias</li>
-      </il>
-  </p>
-</body>
+    <div class="main">
+      <h1>Programação Web: Laboratórios</h1>
+      <br />
+    </div>
+    <section class="sidenav">
+      <div class="image">
+        <img src="images/Fotografia.jpeg" alt="Eu" />
+        <h2>Martim Teixeira</h2>
+      </div>
+      <p>
+        <h3 id="info">Informações:</h3>
+        <il>
+          <li id="unico">Número: a22006053</li>
+          <li id="unico">Curso: Informática de Gestão</li>
+          <li id="unico">
+            Univeridade: Universidade Lusófona de Humanidades e Tecnologias
+          </li>
+        </il>
+      </p>
+    </section>
+    <section class="main">
+      <p>
+        <details>
+          <summary>Laboratório 1</summary>
+          <p>
+            <a href="lab1/index.html"
+              >Conhecer a Internet com a minha primeira página Web</a
+            >
+          </p>
+        </details>
+        <br />
+        <details>
+          <summary>Laboratório 2</summary>
+          <p>
+            <a href="lab2/index.html"
+              >Explorando o HTML com o meu primeiro website</a
+            >
+          </p>
+        </details>
+        <br />
+        <details>
+          <summary>Laboratório 3</summary>
+          <p>
+            <a href="lab3/index.html">Website com Quizz e seletores CSS</a>
+          </p>
+        </details>
+      </p>
+    </section>
+  </body>
 </html>
-
