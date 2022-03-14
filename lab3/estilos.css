@@ -20,6 +20,16 @@ body {
   padding: 6px 6px;
 }
 
+/* Emoji in title - dont work */
+
+h1::after {
+  content: 🌊;
+}
+
+h1::before {
+  content: 🌊;
+}
+
 /* Side bar */
 
 .sidenav {
@@ -75,13 +85,18 @@ td {
   border: 1px solid black;
   border-color: #000000;
 }
-th,
-td {
+tr {
   background-color: #ffffff;
 }
 table {
   background-color: #000000;
 }
+
+tr:nth-child(2n) {
+  background-color: #9e9e9e;
+}
+
+/* format footer */
 
 footer {
   overflow: hidden;
@@ -157,24 +172,4 @@ h2::first-letter {
 img,
 iframe {
   border: 4px solid rgb(0, 0, 0);
-}
-
-/* DONT WORK */
-
-tr:nth-child(odd) {
-  background: #ccc;
-}
-
-tr:nth-child(even) {
-  background: #fff;
-}
-
-/* Emoji in title - dont work */
-
-h1::after {
-  content: 🌊;
-}
-
-h1::before {
-  content: 🌊;
 }
