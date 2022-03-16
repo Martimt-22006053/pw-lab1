@@ -20,14 +20,14 @@ body {
   padding: 6px 6px;
 }
 
-/* Emoji in title - dont work */
+/* Emoji in title */
 
 h1::after {
-  content: 🌊;
+  content: "🌊";
 }
 
 h1::before {
-  content: 🌊;
+  content: "🌊";
 }
 
 /* Side bar */
@@ -172,4 +172,12 @@ h2::first-letter {
 img,
 iframe {
   border: 4px solid rgb(0, 0, 0);
+}
+
+.inputBlock {
+  display: block;
+}
+
+.margin {
+  margin-bottom: 10px;
 }

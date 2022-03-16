@@ -42,26 +42,37 @@
                 <legend id="size20">Quizz Ericeira</legend>
                 <fieldset id="colorQuizz2">
                     <legend>Informações</legend>
+                    <div class="margin">
                     <label for="fname">Primeiro Nome:</label>
-                    <input type="text" id="fname" name="fname" autofocus required><br><br>
+                    <input type="text" id="fname" name="fname" autofocus required>
+                    </div>
+                    <div class="margin">
                     <label for="lname">Segundo Nome:</label>
-                    <input type="text" id="lname" name="lname" required><br><br>
-                    <label for="birthday">Data de Nascimento:</label>
-                    <input type="date" id="birthday" name="birthday"><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" size="50" required><br><br>
-                    <label for="fname">Género:</label>
+                    <input type="text" id="lname" name="lname" required>
+                    </div>
+                    <div class="margin">
+                      <label for="birthday">Data de Nascimento:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <div class="margin">
+                      <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" size="50" required>
+                    </div>
+                    <div class="margin">
+                      <label for="fname">Género:</label>
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Masculino</label>
                     <input type="radio" id="female" name="gender" value="female">
                     <label for="female">Feminino</label>
                     <input type="radio" id="other" name="gender" value="other">
                     <label for="other">Outro</label>
+                    </div>
                 </fieldset><br>
                 <fieldset id="colorQuizz2">
                     <legend>Perguntas</legend>
                     <fieldset id="colorQuizz1">
                       <legend>Conhecimento da Vila</legend>
+                      <div class="margin">
                       <label for="fname">Que praias se localizam na Ericeira?</label><br>
                       <input type="checkbox" id="pescadores" name="pescadores" value="pescadores">
                       <label for="pescadores">Praia dos Pescadores</label><br>
@@ -72,8 +83,10 @@
                       <input type="checkbox" id="lourenco" name="lourenco" value="lourenco">
                       <label for="lourenco">Praia de São Lourenço</label><br>
                       <input type="checkbox" id="cavalo" name="cavalo" value="cavalo">
-                      <label for="cavalo">Praia da Ribeira do Cavalo</label><br><br>
-                      <label for="browser">Qual a praia mais perto do Largo dos Navegantes?</label><br>
+                      <label for="cavalo">Praia da Ribeira do Cavalo</label><br>
+                      </div>
+                      <div class="margin">
+                        <label for="browser">Qual a praia mais perto do Largo dos Navegantes?</label><br>
                       <select name="browser" id="browser">
                         <option value="Praia da Rocha">Praia da Rocha</option>
                         <option value="Praia do Sul">Praia do Sul</option>
@@ -81,16 +94,26 @@
                         <option value="Praia Foz do Lizandro">Praia Foz do Lizandro</option>
                         <option value="Praia do Baleal">Praia do Baleal</option>
                         <option value="Praia dos Pescadores">Praia dos Pescadores</option>
-                      </select><br><br>
-                      <label for="comida">Qual é o doce típico da Ericeira?</label><br>
-                      <input type="text" id="comida" name="comida" size="25"><br><br>
-                      <label for="comida">Como se chama o Hotel mais conhecido da Ericeira?</label><br>
-                      <input type="text" id="comida" name="comida" size="40"><br><br>
-                      <label for="color">Qual é a cor principal da Bandeira da Ericeira?</label>
-                      <input type="color" id="color" name="color"><br><br>
-                      <label for="postal">Qual o código postal da Ericeira? Vou dar uma ajudinha 😆</label><br>
-                      <input type="text" id="postal" name="postal" placeholder="26**-***" pattern="[0-9]{4}-[0-9]{3}" size="10"><br><br>
-                      <label for="fname">Quais são os desportos mais praticados na Ericeira?</label><br>
+                      </select>
+                      </div>
+                      <div class="margin">
+                        <label for="comida">Qual é o doce típico da Ericeira?</label>
+                      <input class="inputBlock" type="text" id="comida" name="comida" size="25">
+                      </div>
+                      <div class="margin">
+                        <label for="comida">Como se chama o Hotel mais conhecido da Ericeira?</label>
+                      <input class="inputBlock" type="text" id="comida" name="comida" size="40">
+                      </div>
+                      <div class="margin">
+                        <label for="color">Qual é a cor principal da Bandeira da Ericeira?</label>
+                      <input type="color" id="color" name="color">
+                      </div>
+                      <div class="margin">
+                        <label for="postal">Qual o código postal da Ericeira? Vou dar uma ajudinha 😆</label><br>
+                      <input class="inputBlock" type="text" id="postal" name="postal" placeholder="26**-***" pattern="[0-9]{4}-[0-9]{3}" size="10">
+                      </div>
+                      <div class="margin">
+                        <label for="fname">Quais são os desportos mais praticados na Ericeira?</label><br>
                       <input type="checkbox" id="padel" name="padel" value="padel">
                       <label for="padel">Padel</label><br>
                       <input type="checkbox" id="surf" name="surf" value="surf">
@@ -98,14 +121,18 @@
                       <input type="checkbox" id="skate" name="skate" value="skate">
                       <label for="skate">Skate</label><br>
                       <input type="checkbox" id="andebol" name="andebol" value="andebol">
-                      <label for="andebol">Andebol</label><br>
+                      <label for="andebol">Andebol</label>
+                      </div>
                     </fieldset>
                     <fieldset id="colorQuizz1">
                       <legend>Opinião Pessoal</legend>
-                      <label for="quantity">Qual seria a probabilidade de viver na Ericeira?</label>
-                      <input type="number" id="quantity" name="quantity" min="1" max="5" placeholder="1-5"><br><br>
-                      <label for="browser">Qual a praia que mais gosta na Ericeira?</label><br>
-                      <input list="browsers" name="browser" id="browser" size="40">
+                      <div class="margin">
+                        <label for="quantity">Qual seria a probabilidade de viver na Ericeira?</label>
+                        <input class="inputBlock" type="number" id="quantity" name="quantity" min="1" max="5" placeholder="1-5">
+                      </div>
+                      <div class="margin">
+                        <label for="browser">Qual a praia que mais gosta na Ericeira?</label>
+                      <input class="inputBlock" list="browsers" name="browser" id="browser" size="40">
                       <datalist id="browsers" multiple>
                         <option value="Praia de São Lourenço">
                         <option value="Praia do Sul">
@@ -114,18 +141,23 @@
                         <option value="Praia da Calada">
                         <option value="Praia da Ribeira D'Ilhas">
                         <option value="Praia da Empa">
-                      </datalist><br><br>
-                      <label for="atrai">O que mais o atrai na Ericeira?</label><br>
-                      <textarea rows = "3" cols = "50" name = "description" maxlength="140"></textarea><br><br>
-                      <label for="points">De uma forma geral, quanto gosta da Ericeira?</label><br>
-                      <input type="range" id="points" name="points" min="0" max="10">
+                      </datalist>
+                      </div>
+                      <div class="margin">
+                        <label for="atrai">O que mais o atrai na Ericeira?</label>
+                      <textarea class="inputBlock" rows = "3" cols = "50" name = "description" maxlength="140"></textarea>
+                      </div>
+                      <label for="points">De uma forma geral, quanto gosta da Ericeira?</label>
+                      <input class="inputBlock" type="range" id="points" name="points" min="0" max="10">
                     </fieldset><br>
-                    <label for="opiniao" id="size20">Comentário</label><br>
-                  <textarea id="opiniao" name="opiniao" rows="4" cols="50" placeholder="Escreva um breve comentário nesta caixa de texto"></textarea><br>
+                    <label for="opiniao" id="size20">Comentário</label>
+                  <textarea class="inputBlock" id="opiniao" name="opiniao" rows="4" cols="50" placeholder="Escreva um breve comentário nesta caixa de texto"></textarea><br>
                 </fieldset><br>
                 <h3>Agradecimento</h3>
-                <p>Obrigado por ter respondido a este questionário sobre a Ericeira e ter demonstrado os seus conhecimentos sobre esta vila!</p><br>
+                <div class="margin">
+                  <p>Obrigado por ter respondido a este questionário sobre a Ericeira e ter demonstrado os seus conhecimentos sobre esta vila!</p>
                 <input type="image" src="images/button.png" alt="Submit" width="185" height="45">
+                </div>
             </fieldset>
         </form>
     </section>
