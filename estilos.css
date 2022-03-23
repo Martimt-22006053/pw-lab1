@@ -8,6 +8,20 @@ body {
 
 /* Side bar */
 
+.design {
+  grid-template-areas:
+    "sidebar       "
+    "sidebar  infoFooter";
+}
+
+footer {
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+  color: #f2f2f2;
+  grid-area: infoFooter;
+}
+
 .sidenav {
   height: 100%;
   width: 250px;
@@ -19,6 +33,7 @@ body {
   overflow-x: hidden;
   padding-top: 30px;
   color: #ffffff;
+  grid-area: sidebar;
 }
 
 .sidenav a {

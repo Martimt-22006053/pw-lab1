@@ -1,0 +1,262 @@
+* {
+  font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+}
+
+.capitais {
+  background-color: rgb(163, 218, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  font-size: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.capitais > div {
+  box-shadow: 5px 5px 15px #888888;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 20px;
+  width: 300px;
+  height: 88px;
+  margin: 20px;
+}
+
+.capitais img {
+  border-radius: 20px;
+  height: 100%;
+  float: left;
+}
+
+.capitais div div:last-child {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 12px;
+  text-align: right;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a:last-child {
+  margin-left: auto;
+}
+
+a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(160, 160, 160);
+  font-weight: bold;
+}
+
+.flex-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backImage {
+  display: flex;
+  background-image: url(images/predios.jpg);
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  color: white;
+}
+
+.dicas {
+  display: flex;
+  background-color: rgb(163, 218, 255);
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.dicas > div {
+  justify-content: space-around;
+  align-items: space-around;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 15px #888888;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.dicas div h2 {
+  text-align: center;
+}
+
+.dicas div p {
+  margin: 6px;
+}
+
+.destinos {
+  display: grid;
+  grid-template-areas:
+    "ericeira    geres   lisboa gridWhite"
+    "vilamoura vilamoura porto  gridWhite";
+  padding: 10px 20px;
+  background-color: rgb(163, 218, 255);
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.gridWhite {
+  display: grid;
+  grid-template-areas:
+    "campismo campismo"
+    "paragrafo botao";
+  background-color: white;
+  height: 621px;
+  width: 411px;
+  grid-area: gridWhite;
+}
+
+.gridWhite img {
+  height: 474px;
+  width: 411px;
+  grid-area: campismo;
+}
+
+.gridWhite p {
+  height: 100px;
+  width: 205px;
+  margin-left: 20px;
+  margin-top: 45px;
+  grid-area: paragrafo;
+}
+
+.gridWhite button {
+  margin-top: 40px;
+  height: 50px;
+  width: 100px;
+  grid-area: botao;
+}
+
+.destinos div {
+  margin: 10px;
+}
+
+.relative {
+  position: relative;
+  margin: 15px;
+  width: 300px;
+  height: 170px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.absolute {
+  position: absolute;
+  margin: 15px;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.ericeira {
+  background-image: url(images/ericeira.jpg);
+  height: 300px;
+  width: 300px;
+  grid-area: ericeira;
+}
+
+.geres {
+  background-image: url(images/geres.jpg);
+  height: 300px;
+  width: 300px;
+  grid-area: geres;
+}
+
+.vilamoura {
+  background-image: url(images/vilamoura.jpg);
+  height: 300px;
+  width: 622px;
+  grid-area: vilamoura;
+}
+
+.lisboa {
+  background-image: url(images/lisboa1.jpg);
+  height: 300px;
+  width: 300px;
+  grid-area: lisboa;
+}
+
+.porto {
+  background-image: url(images/porto.jpg);
+  height: 300px;
+  width: 300px;
+  grid-area: porto;
+}
+
+@media (max-width: 900px) {
+  .destinos {
+    grid-template-areas:
+      "ericeira    geres"
+      "lisboa      porto"
+      "vilamoura vilamoura "
+      "gridWhite  gridWhite";
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .ericeira {
+    background-image: url(images/ericeira.jpg);
+    height: 300px;
+    width: 300px;
+    grid-area: ericeira;
+  }
+
+  .geres {
+    background-image: url(images/geres.jpg);
+    height: 300px;
+    width: 300px;
+    grid-area: geres;
+  }
+
+  .vilamoura {
+    background-image: url(images/vilamoura.jpg);
+    height: 300px;
+    width: 622px;
+    grid-area: vilamoura;
+  }
+
+  .lisboa {
+    background-image: url(images/lisboa1.jpg);
+    height: 300px;
+    width: 300px;
+    grid-area: lisboa;
+  }
+
+  .porto {
+    background-image: url(images/porto.jpg);
+    height: 300px;
+    width: 300px;
+    grid-area: porto;
+  }
+
+  .dicas {
+    justify-content: center;
+  }
+}
