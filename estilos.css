@@ -1,56 +1,45 @@
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Saira", sans-serif;
 }
 
 body {
   background-color: #faf5e5;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 15% 100% 20%;
+  grid-template-columns: 18% 82%;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main"
+    "sidebar footer";
 }
 
-/* Side bar */
-
-.design {
-  grid-template-areas:
-    "sidebar       "
-    "sidebar  infoFooter";
+.main {
+  margin-left: 3%;
 }
 
 footer {
   background-color: black;
-  bottom: 0;
-  width: 100%;
   color: #f2f2f2;
-  grid-area: infoFooter;
+  text-align: center;
+  bottom: 0;
 }
 
 .sidenav {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
   background-color: #111;
-  overflow-x: hidden;
-  padding-top: 30px;
+  padding-top: 12%;
   color: #ffffff;
   grid-area: sidebar;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
-  text-decoration: none;
   font-size: 22px;
   color: #ffffff;
-  display: block;
 }
 
 .sidenav a:hover {
   color: #ffffff;
-}
-
-.main {
-  margin-left: 260px;
-  padding: 0px 15px;
 }
 
 @media screen and (max-height: 450px) {

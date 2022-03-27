@@ -6,6 +6,12 @@ h1 {
   font-family: "Indie Flower", cursive;
 }
 
+.typeLetter {
+  font-family: "PT Serif", serif;
+  font-size: 50px;
+  margin-top: 15vh;
+}
+
 .capitais {
   background-color: rgb(163, 218, 255);
   display: flex;
@@ -44,6 +50,9 @@ h1 {
 
 .menu {
   display: flex;
+  position: sticky;
+  background: white;
+  top: 0;
 }
 
 .menu a:last-child {
@@ -73,8 +82,9 @@ a:hover {
   background-image: url(images/predios.jpg);
   text-align: center;
   justify-content: center;
-  height: 200px;
+  height: 90vh;
   color: white;
+  background-repeat: no-repeat;
 }
 
 .dicas {
