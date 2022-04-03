@@ -1,54 +1,60 @@
 * {
   font-family: "Saira", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #faf5e5;
   margin: 0;
-  display: grid;
-  grid-template-rows: 15% 100% 20%;
-  grid-template-columns: 18% 82%;
-  grid-template-areas:
-    "sidebar header"
-    "sidebar main"
-    "sidebar footer";
 }
 
-.main {
-  margin-left: 3%;
+.menu{
+  height: 10vh;
+  display: flex;
+  position: sticky;
+  background: white;
+  top: 0;
+  padding: 0;
+  border: 0;
+  z-index: 999;
+  align-items: center;
 }
 
-footer {
+.menu a:nth-child(2) {
+  float: right;
+  margin-left: auto;
+  text-decoration: none;
+  padding: 20px;
+  color: gray;
+}
+
+.menu a:nth-child(3) {
+  float: right;
+  text-decoration: none;
+  padding: 20px;
+  color: gray;
+}
+
+
+.menu a:last-child {
+  float: right;
+  text-decoration: none;
+  padding: 20px ;
+  background-color: red;
+  color: white;
+}
+
+
+.menu a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+.heroImage {
   background-color: black;
-  color: #f2f2f2;
-  text-align: center;
-  bottom: 0;
-}
-
-.sidenav {
-  background-color: #111;
-  padding-top: 12%;
+  padding-top: 2%;
   color: #ffffff;
-  grid-area: sidebar;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  font-size: 22px;
-  color: #ffffff;
-}
-
-.sidenav a:hover {
-  color: #ffffff;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
+  height: 90vh;
 }
 
 img {
@@ -61,14 +67,22 @@ img {
 
 h1 {
   text-align: center;
+  padding: 10px;
 }
 
-/* Não funcina ???????*/
-
-#info {
-  margin-left: 5px;
+#margin{
+  margin: 20px;
 }
 
-#unico {
-  margin-left: 10px;
+#center{
+  text-align: center;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 0.8em;
 }

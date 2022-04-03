@@ -3,38 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Martim Teixeira" />
-    <link rel="portugal icon" type="images/Portugal.ico" href="images/Portugal.ico" />
+    <link
+      rel="portugal icon"
+      type="images/Portugal.ico"
+      href="images/Portugal.ico"
+    />
     <link rel="stylesheet" href="estilos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>PW Labs</title>
   </head>
   <body>
-    <header>
-      <div>
-      <h1>Programação Web: Laboratórios</h1>
-      <br />
-    </div>
+    <header class="menu">
+      <h1>Programação Web</h1>
+      <a href="#info">Info</a>
+      <a href="#gitHeroku">GitHub & Heroku</a>
+      <a href="#labs">Laboratórios</a>
     </header>
-    <section class="sidenav">
+    <section class="heroImage">
       <div class="image">
-        <img src="images/Fotografia.jpeg" alt="Eu" />
-        <h2>Martim Teixeira</h2>
+        <img src="images/228.JPG" alt="Eu" />
+        <h1><b>Martim Teixeira</b></h1>
       </div>
-      <p>
-        <h3 id="info">Informações:</h3>
-        <il>
-          <li id="unico">Número: a22006053</li>
-          <li id="unico">Curso: Informática de Gestão</li>
-          <li id="unico">
-            Univeridade: Universidade Lusófona de Humanidades e Tecnologias
-          </li>
-        </il>
-      </p>
+      <div id="center">
+        <h2>Um Programador em fase de ascenção</h2>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 id="info">Informações</h1>
+        <div id="margin">
+          <il>
+            <li>Número: a22006053</li>
+            <li>Curso: Informática de Gestão</li>
+            <li>
+              Univeridade: Universidade Lusófona de Humanidades e Tecnologias
+            </li>
+          </il>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 id="gitHeroku">GitHub & Heroku</h1>
+      <div>
+        <p>
+          Este projeto encontra-se no
+          <a
+            href="https://github.com/Martimt-22006053/pw-labs-MartimTeixeira-a22006053"
+            >GitHub</a
+          >
+          e está hospedado na Cloud, no
+          <a href="https://a22006053-labs.herokuapp.com/">Heroku</a>.
+        </p>
+      </div>
     </section>
     <section class="main">
-      <p>
+      <h1 id="labs">Laboratórios</h1>
+      <div id="margin">
         <details>
           <summary>Laboratório 1</summary>
           <p>
@@ -63,7 +92,9 @@
         <details>
           <summary>Laboratório 4</summary>
           <p>
-            <a href="lab4/index.html">SPA com layout responsivo baseado em Flexbox e Grid</a>
+            <a href="lab4/index.html"
+              >SPA com layout responsivo baseado em Flexbox e Grid</a
+            >
           </p>
         </details>
         <br />
@@ -73,7 +104,7 @@
             <a href="lab5/index.html">SPA com boas práticas de web design</a>
           </p>
         </details>
-      </p>
+      </div>
     </section>
     <section>
       <footer>
