@@ -51,19 +51,20 @@ body {
 
 
 .heroImage {
+  display: flex;
   background-color: black;
-  padding-top: 2%;
   color: #ffffff;
   height: 90vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
 
 img {
   border-radius: 50%;
 }
 
-.image {
-  text-align: center;
-}
 
 h1 {
   text-align: center;
@@ -72,10 +73,6 @@ h1 {
 
 #margin{
   margin: 20px;
-}
-
-#center{
-  text-align: center;
 }
 
 footer{
