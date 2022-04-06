@@ -178,64 +178,117 @@ body{
   margin: 0 10vw;
 }
 
+.text{
+
+}
+
 .foto1 {
+  position: relative;
   max-width: 100%;
   grid-area: foto1;
 }
 
+.foto1:hover{
+  opacity: 0.5;
+}
+
 .foto2 {
+  position: relative;
   max-width: 100%;
   grid-area: foto2;
 }
+.foto2:hover {
+  opacity: 0.5;
+}
 
 .foto3 {
+  position: relative;
   max-width: 100%;
   grid-area: foto3;
 }
+.foto3:hover {
+  opacity: 0.5;
+}
 
 .foto4 {
+  position: relative;
   max-width: 100%;
   grid-area: foto4;
 }
+.foto4:hover {
+  opacity: 0.5;
+}
 
 .foto5 {
+  position: relative;
   max-width: 100%;
   grid-area: foto5;
 }
+.foto5:hover {
+  opacity: 0.5;
+}
 
 .foto6 {
+  position: relative;
   max-width: 100%;
   grid-area: foto6;
 }
+.foto6:hover {
+  opacity: 0.5;
+}
 
 .foto7 {
+  position: relative;
   max-width: 100%;
   grid-area: foto7;
 }
+.foto7:hover {
+  opacity: 0.5;
+}
 
 .foto8 {
+  position: relative;
   max-width: 100%;
   grid-area: foto8;
 }
+.foto8:hover {
+  opacity: 0.5;
+}
 
 .foto9 {
+  position: relative;
   max-width: 100%;
   grid-area: foto9;
 }
+.foto9:hover {
+  opacity: 0.5;
+}
 
 .foto10 {
+  position: relative;
   max-width: 100%;
   grid-area: foto10;
 }
+.foto10:hover {
+  opacity: 0.5;
+}
 
 .foto11 {
+  position: relative;
   max-width: 100%;
   grid-area: foto11;
 }
+.foto11:hover {
+  opacity: 0.5;
+}
 
 .foto12 {
+  position: relative;
   max-width: 100%;
   grid-area: foto12;
+}
+.foto12:hover {
+  opacity: 0.5;
 }
 
 
